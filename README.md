@@ -6,6 +6,7 @@ First of all i want to try explain files and their contents.
 ################# PythonTCPServer.py #################
 FUNCTIONS EXPLAIN
 ######################################################
+
   start(procces_pref,input):
     In this function we have 2 function variable there are procces_pref(int) and input. With procces_pref code try to understand user want to read data from client or send message to client. If data is 1 its going to handle_client, so this meaning we want to recv message from client. On the other hand, if it is 2 this meaning is that user want to send message to client. Before there are happen this function creating requirement variables and starting so server listen.
     
